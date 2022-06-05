@@ -544,6 +544,7 @@
   -webkit-transition: .2s;
   transition: .2s;
   outline: 1px solid #70A288;
+  border: none;
 }
 
 #aboutpage #resume-btn:hover {
@@ -1118,7 +1119,7 @@
     max-width: 60vw;
   }
   #contactpage p {
-    width: 50vw;
+    width: 60vw;
   }
 }
 /*# sourceMappingURL=style.css.map */

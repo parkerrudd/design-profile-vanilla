@@ -40,11 +40,10 @@
         transition: .2s;
         opacity: .8;
         &:hover {
-            // text-decoration: underline;
-            // color: $paleBlue; 
             opacity: 1;
         }
     }
+
 }
 
 #logo-image {
@@ -62,3 +61,5 @@
 #contact {
     animation: navDropIn 1.5s;
 }
+
+
