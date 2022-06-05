@@ -50,8 +50,8 @@
         background-color: $prussianBlue;
         color: $polishedPine;
         border: none;
-        padding: .3em .7em;
-        font-size: 1.2em;
+        padding: .4em .7em;
+        font-size: 1em;
         transition: .2s;
         outline: 1px solid $polishedPine;
 
@@ -75,6 +75,7 @@
         .about-container {
             @include flexCenter(column);
             gap: 0;
+            padding-top: 5vh;
         }
 
         .about-words {

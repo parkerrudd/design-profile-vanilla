@@ -539,8 +539,8 @@
   background-color: #04395E;
   color: #70A288;
   border: none;
-  padding: .3em .7em;
-  font-size: 1.2em;
+  padding: .4em .7em;
+  font-size: 1em;
   -webkit-transition: .2s;
   transition: .2s;
   outline: 1px solid #70A288;
@@ -577,6 +577,7 @@
         -ms-flex-direction: column;
             flex-direction: column;
     gap: 0;
+    padding-top: 5vh;
   }
   #aboutpage .about-words {
     width: 70vw;
@@ -1101,14 +1102,20 @@
   background-color: #04395E;
 }
 
+#contactpage footer {
+  display: block;
+  -webkit-transform: translateY(10vh);
+          transform: translateY(10vh);
+}
+
 @media screen and (max-width: 850px) {
   #contactpage #email {
-    width: 50vw;
-    max-width: 50vw;
+    width: 60vw;
+    max-width: 60vw;
   }
   #contactpage #email-text {
-    width: 50vw;
-    max-width: 50vw;
+    width: 60vw;
+    max-width: 60vw;
   }
   #contactpage p {
     width: 50vw;
