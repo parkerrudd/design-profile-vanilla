@@ -535,7 +535,6 @@
 }
 
 #aboutpage #resume-btn {
-  border-radius: 10px;
   background-color: #04395E;
   color: #70A288;
   border: none;
@@ -544,6 +543,7 @@
   -webkit-transition: .2s;
   transition: .2s;
   outline: 1px solid #70A288;
+  border-radius: 10px;
   border: none;
 }
 

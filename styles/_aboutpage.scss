@@ -46,7 +46,6 @@
     }
 
     #resume-btn {
-        border-radius: 10px;
         background-color: $prussianBlue;
         color: $polishedPine;
         border: none;
@@ -54,6 +53,7 @@
         font-size: 1em;
         transition: .2s;
         outline: 1px solid $polishedPine;
+        border-radius: 10px;
         border: none;
 
         &:hover {
