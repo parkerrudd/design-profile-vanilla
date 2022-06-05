@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="stylesheet" href="/styles/style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <title>Parker Rudd</title>
+  </head>
+  <body>
+    <div class="App">
+      <section class="home" id='home'>
+        <div class="nav">
+           <a class="logo" href="#home">
+             <img id="logo-image" src="images/dev-logo-lighter-bg.png" alt="" />
+           </a>
+           <div class="links">
+             <a id="about" href="#aboutpage">About</a>
+             <a id="work" href="#workpage">Work</a>
+             <a id="contact" href="#contactpage">Contact</a>
+           </div>
+        </div>
+
+        <div class="info-section">
+           <h1 class="blue-font">Hey, I'm Parker.</h1>
+           <h1 class="darker-font">I'm a web developer.</h1>
+           <p id="info-paragraph">I'm a software engineer passionate about combining the art of design and the skill of programming to make creative user experiences that are enjoyable and easy to use.</p>
+
+           <div class="icons">
+             <a id='github-logo' href="https://github.com/parkerrudd" target="_blank"> <ion-icon name="logo-github"></ion-icon> </a>
+             <a id='linkedin-logo' href="https://www.linkedin.com/in/parkerrudd" target="_blank"> <ion-icon name="logo-linkedin"></ion-icon> </a>
+             <a id='twitter-logo' href="https://twitter.com/parkerrudd" target="_blank"> <ion-icon name="logo-twitter"></ion-icon> </a>
+           </div>
+
+    </div>
+
+    <section id='aboutpage'>
+        <div class="about-container">
+            <div class="about-words">
+                <h3 class='m-plus'>About Me</h3>
+                <hr/>
+                <p class='m-plus'>Hello! My name is Parker and I love creating enjoyable and interesting user experiences. My developer journey began in late 2021, when I wanted to make a website for my music. I started learning  web development, and in doing so, realized how much I enjoyed coding. Before long I decided to work towards becoming a software engineer. 
+                </p>
+                <p class='m-plus'>Since then I've built multiple applications and websites, including a third party Spotify app that randomly generates a song for you based on your current mood. Being a self taught developer, I am highly confident in my problem solving and troubleshooting abilities, and I'm always looking for more technologies to learn in order to create the best user experience possible. </p>
+                <h4 class='m-plus'>Here are some languages I speak:</h4>
+                <div class="languages">
+                    <ul>
+                        <div class="top-ul">
+                            <li>HTML</li>
+                            <li>CSS/SASS</li>
+                        </div>
+                        <div class="bottom-ul">
+                            <li>JavaScript</li>
+                            <li>React</li>
+                        </div>
+                    </ul>
+                </div>
+                <a href="https://docs.google.com/document/d/1bYgoX9_E0shY8UNCMidPCNN24379dtFYJ6oHC696_6Y/edit?usp=sharing" target="_blank"><button className='m-plus' id='resume-btn'>Resume</button></a>
+            </div>
+
+            <div class="headshot-container">
+                <img id='headshot' src="images/headshot2.png" alt="" />
+            </div>
+        </div>
+    </section>
+
+    <section id='workpage'>
+        <div class="workpage-container">
+            <h1>Some Things I've Built</h1> <hr />
+            <div class="find-me-a-song">
+                <a href="https://drive.google.com/file/d/19J8g-bL3rTxqQylybczwI7l5GJBC8rMz/view" target="_blank">
+                    <img src="images/song-gen-sad-ss.png" alt="findmeasong.com image" />
+                </a>
+                <div class="find-me-a-song-info">
+                    <a href="https://drive.google.com/file/d/19J8g-bL3rTxqQylybczwI7l5GJBC8rMz/view" target="_blank">
+                        <h5>FindMeASong.com</h5>
+                    </a>
+                    <br />
+                    <p class='m-plus'>A react app that finds you a song based on your current mood. For this application, I created a song database that is mapped through to generate a random song for the user to listen to. I also created a version that implements the spotify API and uses authorization tokens to allow users access to a different playlist for each mood.</p>
+                    <ul>
+                        <li>React</li>
+                        <li>Axios</li>
+                        <li>Spotify API</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class='pr-music-container'>
+                <div class="pr-music-info">
+                    <a href="https://www.parkerruddmusic.com/" target="_blank">
+                        <h5>parkerRuddMusic.com</h5>
+                    </a>
+                    <p class='m-plus'>
+                    This is a personal website that I made for my music. It is designed to be a one-stop for users to then be redirected to listen to my music on the streaming platform of their choice. 
+                    </p>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+
+                <a href="https://www.parkerruddmusic.com/" target="_blank">
+                    <img src="images/music-site-ss.png" alt="" />
+                </a>
+
+            </div>
+
+            <div class="blackjack-container">
+                <a href="https://www.myfreeblackjack.com/" target="_blank">
+                    <img src="images/blackjack-ss.png" alt="" />
+                </a>
+
+                <div class='blackjack-info'>
+                    <a href="https://www.myfreeblackjack.com/" target="_blank">
+                        <h5>myFreeBlackjack.com</h5>
+                    </a>
+                    <p class='m-plus'>
+                    In this blackjack game, the user is dealt two cards and plays against the dealer. The user has the ability to choose whether they want to recieve another card, or stick to their current card count. The deck is shuffled upon each new turn. This application was built using React JS, and the deck of cards API.
+                    </p>
+                    <ul>
+                        <li>React</li>
+                        <li>Deck of Cards API</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="reverb-calc-container">
+                <div class="reverb-calc-info">
+                    <a href="https://www.reverbcalculator.com/" target="_blank">
+                        <h5>reverbCalculator.com</h5>
+                    </a>
+                    <p class='m-plus'>
+                    This is a web app that helps music producers decide the reverb parameters for their track. The user simply inputs the track's BPM, and the app displays the ideal time for all the dimensions of the reverb to run. The user can then copy these values into their track's reverb settings. 
+                    </p>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                <a href="https://www.reverbcalculator.com/" target="_blank">
+                    <img src="images/reverbcalc-ss.png" alt="" />
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id='contactpage'>
+        <h1>Reach Out!</h1>
+        <p class='m-plus'>I'm always looking for new opportunities to create. Don't hesitate to get in touch!</p>
+
+        <form action="https://formsubmit.co/parkerbrudd@gmail.com" method="POST">
+            <input id='email' type="email" name="email" placeholder='example@email.com' required />
+
+            <textarea id='email-text' name="name" cols="30" rows="10" placeholder='Your Message Here...' required></textarea>
+            <button id='submit-btn' type="submit">Send</button>
+        </form>
+
+     
+    </section>
+  </body>
+</html>
