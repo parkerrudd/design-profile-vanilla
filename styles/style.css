@@ -549,7 +549,7 @@
 
 #aboutpage #resume-btn:hover {
   cursor: pointer;
-  color: #ADD8E6;
+  background-color: #031D44;
   outline: 1px solid #ADD8E6;
 }
 
