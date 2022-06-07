@@ -16,7 +16,7 @@
         border-right: 1px solid $polishedPine;
     }
 
-    .find-me-a-song {
+    .the-movie-game {
         @include flexCenter(row);
         color: $paleBlue;
         gap: 5vw;
@@ -52,8 +52,45 @@
         }
     }
 
+
+    .find-me-a-song {
+        @include flexCenter(row-reverse);
+        color: $paleBlue;
+        gap: 5vw;
+        padding: 5vw;
+
+        img {
+            width: 50vw;
+            opacity: .7;
+            outline: 1px solid $paleBlue;
+            transition: .5s;
+
+            &:hover {
+                opacity: .8;
+            }
+        }
+
+        a {
+            text-decoration: none;
+            color: $polishedPine;
+            transition: .3s;
+
+            &:hover {
+                color: $paleBlue;
+            }
+        }
+
+        ul {
+            @include flexCenter(row);
+            gap: 3vw;
+            padding-top: 3vh;
+            color: $polishedPine;
+            list-style-type: circle;
+        }
+    }
+
     .pr-music-container {
-        @include flexCenter(row);
+        @include flexCenter(row-reverse);
         gap: 5vw;
         padding: 5vw;
         color: $paleBlue;
@@ -181,6 +218,22 @@
     }
 
     @media screen and (max-width: 850px) {
+        .the-movie-game {
+            @include flexCenter(column);
+
+            img {
+                width: 60vw;
+            }
+
+            h5 {
+                text-align: center;
+            }
+
+            p {
+                padding: 0 10vw;
+            }
+        }
+
         .find-me-a-song {
             @include flexCenter(column);
 
@@ -256,12 +309,20 @@
             font-size: 1em;
         }
 
-       .find-me-a-song {
-        ul {
-            gap: 7vw;
-            padding-left: 7vw;
-            font-size: .8em;
+        .the-movie-game {
+            ul {
+                gap: 7vw;
+                padding-left: 7vw;
+                font-size: .8em;
+            }
         }
+
+       .find-me-a-song {
+            ul {
+                gap: 7vw;
+                padding-left: 7vw;
+                font-size: .8em;
+            }
        } 
 
        .blackjack-container {

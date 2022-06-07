@@ -636,7 +636,7 @@
   border-right: 1px solid #70A288;
 }
 
-#workpage .find-me-a-song {
+#workpage .the-movie-game {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -650,6 +650,68 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  color: #ADD8E6;
+  gap: 5vw;
+  padding: 5vw;
+}
+
+#workpage .the-movie-game img {
+  width: 50vw;
+  opacity: .7;
+  outline: 1px solid #ADD8E6;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+#workpage .the-movie-game img:hover {
+  opacity: .8;
+}
+
+#workpage .the-movie-game a {
+  text-decoration: none;
+  color: #70A288;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+#workpage .the-movie-game a:hover {
+  color: #ADD8E6;
+}
+
+#workpage .the-movie-game ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 3vw;
+  padding-top: 3vh;
+  color: #70A288;
+  list-style-type: circle;
+}
+
+#workpage .find-me-a-song {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
   color: #ADD8E6;
   gap: 5vw;
   padding: 5vw;
@@ -709,9 +771,9 @@
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
   gap: 5vw;
   padding: 5vw;
   color: #ADD8E6;
@@ -908,6 +970,30 @@
 }
 
 @media screen and (max-width: 850px) {
+  #workpage .the-movie-game {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #workpage .the-movie-game img {
+    width: 60vw;
+  }
+  #workpage .the-movie-game h5 {
+    text-align: center;
+  }
+  #workpage .the-movie-game p {
+    padding: 0 10vw;
+  }
   #workpage .find-me-a-song {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1014,6 +1100,11 @@
 @media screen and (max-width: 650px) {
   #workpage h1 {
     font-size: 1em;
+  }
+  #workpage .the-movie-game ul {
+    gap: 7vw;
+    padding-left: 7vw;
+    font-size: .8em;
   }
   #workpage .find-me-a-song ul {
     gap: 7vw;
