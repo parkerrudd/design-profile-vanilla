@@ -542,15 +542,14 @@
   font-size: 1em;
   -webkit-transition: .2s;
   transition: .2s;
-  outline: 1px solid #70A288;
+  border: 1px solid #70A288;
   border-radius: 10px;
-  border: none;
 }
 
 #aboutpage #resume-btn:hover {
   cursor: pointer;
   background-color: #031D44;
-  outline: 1px solid #ADD8E6;
+  border: 1px solid #ADD8E6;
 }
 
 #aboutpage #headshot {

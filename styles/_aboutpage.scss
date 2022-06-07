@@ -52,14 +52,13 @@
         padding: .4em .7em;
         font-size: 1em;
         transition: .2s;
-        outline: 1px solid $polishedPine;
+        border: 1px solid $polishedPine;
         border-radius: 10px;
-        border: none;
 
         &:hover {
             cursor: pointer;
             background-color: $oxfordBlue;
-            outline: 1px solid $paleBlue;
+            border: 1px solid $paleBlue;
         }
     }
 
