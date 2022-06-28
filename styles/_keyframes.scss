@@ -19,11 +19,11 @@
 @keyframes slideInIcons {
     from {
         transform: translateX(-350px);
-        opacity: 0;
+        display: none;
     }
     to {
         transform: translateX(0px);
-        opacity: .8;
+        display: block;
     }
 }
 
