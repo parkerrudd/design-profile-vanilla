@@ -83,7 +83,7 @@
   to {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
-    opacity: 1;
+    opacity: .8;
   }
 }
 
@@ -96,7 +96,7 @@
   to {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
-    opacity: 1;
+    opacity: .8;
   }
 }
 
@@ -251,7 +251,7 @@
   to {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
-    opacity: 1;
+    opacity: .8;
   }
 }
 
@@ -432,7 +432,7 @@
   to {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
-    opacity: 1;
+    opacity: .8;
   }
 }
 
